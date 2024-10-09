@@ -1,0 +1,57 @@
+.h1-titulo{
+    font-family: 'titulo';
+    font-weight: 200;
+    font-size: 36px;
+    color: #e4ce92;
+    margin-left: 20px;
+    margin-bottom: -8px;
+}
+.menu-txt{
+    display: flex;
+    font-family: 'subtitulo';
+    color: #e4ce92;
+    font-size: 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 0;
+    padding-bottom: 0;
+    transition: transform 1s ease, box-shadow 0.5s ease;
+    li {
+        margin: 5px;
+    }
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: 
+        4px 4px 16px #e4ce92,
+        -4px 4px 16px #e4ce92,
+        4px -4px 16px #e4ce92,
+        -4px -4px 16px #e4ce92;
+    }
+}
+.subt{
+    margin-top: 24px;
+    margin-bottom: 12px;
+    color: #e4ce92;
+    font-family: 'subtitulo';
+    font-weight: 400;
+    font-size: 24px;
+    justify-self: center;
+}
+.main-h3 {
+    color: #e4ce92;
+    font-family: 'subtitulo';
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 96px;
+}
+.main-li {
+    list-style-type: disc;
+    color: #ffffff;
+    font-family: 'txt';
+    font-size: 18px;
+    li {
+        margin: 8px;
+    }
+}

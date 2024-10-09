@@ -1,0 +1,32 @@
+.header-format{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba($color: #192126, $alpha: 0.75);
+    border-radius: 20px;
+    /*margen y padding*/
+    margin-top: 36px;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    .logo-div-nav {
+        display: flex;
+        align-items: center;
+        .logo-nav {
+            margin-left: 96px;
+            width: 15%;
+        }
+    }
+    .menu-div {
+        display: flex;
+        align-items: center;
+        margin-right: 96px;
+        .menu-list{
+            display: flex;
+            list-style: none;
+            opacity: 100%;
+            
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.main-grid {
+    display: grid;
+    grid-template-rows: 0.2fr 1fr 0.2fr;
+    grid-template-columns: 1;
+    .main-subgrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
