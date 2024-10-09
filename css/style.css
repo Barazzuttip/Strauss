@@ -151,15 +151,15 @@
 
 @font-face {
   font-family: "titulo";
-  src: url("../../assets/Fonts/GreatVibes-Regular.ttf");
+  src: url("../assets/Fonts/GreatVibes-Regular.ttf");
 }
 @font-face {
   font-family: "subtitulo";
-  src: url("../../assets/Fonts/HeadlandOne-Regular.ttf");
+  src: url("../assets/Fonts/HeadlandOne-Regular.ttf");
 }
 @font-face {
   font-family: "txt";
-  src: url("../../assets/Fonts/KantumruyPro-VariableFont_wght.ttf");
+  src: url("../assets/Fonts/KantumruyPro-VariableFont_wght.ttf");
 }
 * {
   margin: 0;
